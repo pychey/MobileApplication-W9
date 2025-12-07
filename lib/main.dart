@@ -1,12 +1,7 @@
 import 'package:flutter/material.dart';
-import 'ui/quiz_app.dart';
+import 'package:myapp/W10-Flutter-Lab/lib/data/quiz_data.dart';
+import 'package:myapp/W10-Flutter-Lab/lib/ui/quiz_app.dart';
  
 void main() {
-
-  // 1 - Load the quiz data
-
-  
-
-  // 2 - Display the quiz
-  runApp(QuizApp());
+  runApp(QuizApp(quiz: quiz));
 }
